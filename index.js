@@ -41,6 +41,6 @@ app.get('/getUsers', async(req, res) => {
 });
 
 app.listen(port, function () {
-    console.log("Server is listening at port:" + port);
+    console.log("Server is listening on port:" + port);
 });
  
